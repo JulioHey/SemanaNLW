@@ -1,0 +1,116 @@
+@media (max-width: 900px) {
+    #page-home {
+        background-position-x: 70vw;
+    }
+
+    #page-home .content {
+        align-items: center;
+        text-align: center;
+    }
+
+    #page-home header a {
+        position: absolute;
+        bottom: 48px;
+
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #page-search-result main .cards {
+        grid-template-columns: 1fr;
+    }
+
+    #page-search-result main .card {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    #page-create-point .field-group {
+        flex-direction: column;
+    }
+
+    #page-create-point .field-group .field + .field {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 700px) {
+    .items-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    #page-create-point header, #page-search-result header {
+        margin-top: 10px;
+    }
+
+    form h1 {
+        font-size: 24px;
+    }
+
+    form legend {
+        margin-bottom: 0;
+    }
+
+    form {
+        padding: 32px 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    #page-home header {
+        margin-top: 20px;
+    }
+
+    #page-home main h1, #page-search-result h1 {
+        font-size: 26px;
+    }
+
+    #page-search-result h3 {
+        font-size: 20px;
+    }
+
+    #page-search-result p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    #page-search-result main .card {
+        margin: 0 25px 0 25px;
+    }
+
+    #page-home main p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    #page-create-point, #page-search-result {
+        margin: 0 9px;
+    }
+
+    #page-create-point header, #page-search-result header {
+        flex-direction: column;
+        height: 80px;
+        justify-content: space-between;
+    }   
+
+    #page-create-point form {
+        margin-top: 40px;
+    }
+}
+
+@media (min-width: 1440px) {
+    #page-home {
+        background-position-x: 40w;
+    }
+}
+
+@media (max-height: 760px) {
+    #page-home {
+        background-position-y: 200px;
+    }
+}
+
